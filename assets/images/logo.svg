@@ -1,0 +1,17 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gold-gradient" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD700"/>
+      <stop offset="0.5" stop-color="#FFF8DC"/>
+      <stop offset="1" stop-color="#B8860B"/>
+    </linearGradient>
+    <radialGradient id="metal-shadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#222" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="1"/>
+    </radialGradient>
+  </defs>
+  <rect width="64" height="64" rx="32" fill="url(#metal-shadow)"/>
+  <circle cx="32" cy="32" r="28" fill="url(#gold-gradient)"/>
+  <path d="M32 16L45 50H40.5L36.5 39H27.5L23.5 50H19L32 16ZM32 24.5L28.6 33H35.4L32 24.5Z" fill="#111"/>
+  <text x="32" y="59" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111" font-weight="bold">Angbyte</text>
+</svg> 
